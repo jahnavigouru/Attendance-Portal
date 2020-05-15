@@ -1,0 +1,753 @@
+[{
+  "_id": {
+    "$oid": "5ebeca3a14d4c30640e08486"
+  },
+  "name": "Lloyd Vogel",
+  "email": "vogel@faculty.com",
+  "password": "$2a$10$eReN.QGnBgfcuLcR/VD9TeRZU6aZh2VwC7RTFDfSnsWaXxKxUh5Zq",
+  "department": "Quantum Mechanics",
+  "n_students": 6,
+  "attendance": [
+    {
+      "name": "Tiffiny Maxwell",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebecbaf5ce6702a146ccc77"
+          },
+          "date": "06-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebecbe55ce6702a146ccc7d"
+          },
+          "date": "11-05-2020",
+          "value": 0
+        },
+        {
+          "_id": {
+            "$oid": "5ebee4cd3eea490838e02d4f"
+          },
+          "date": "20-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "John Nash",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebecbaf5ce6702a146ccc78"
+          },
+          "date": "06-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebecbe55ce6702a146ccc7e"
+          },
+          "date": "11-05-2020",
+          "value": 0
+        },
+        {
+          "_id": {
+            "$oid": "5ebee4cd3eea490838e02d50"
+          },
+          "date": "20-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Stella Clark",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebecbaf5ce6702a146ccc79"
+          },
+          "date": "06-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebecbe55ce6702a146ccc7f"
+          },
+          "date": "11-05-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebee4cd3eea490838e02d51"
+          },
+          "date": "20-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Joel Barish",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebecbaf5ce6702a146ccc7a"
+          },
+          "date": "06-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebecbe55ce6702a146ccc80"
+          },
+          "date": "11-05-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebee4cd3eea490838e02d52"
+          },
+          "date": "20-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Todd Miller",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebecbaf5ce6702a146ccc7b"
+          },
+          "date": "06-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebecbe55ce6702a146ccc81"
+          },
+          "date": "11-05-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebee4cd3eea490838e02d53"
+          },
+          "date": "20-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Eugeni Skeeter",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebecbaf5ce6702a146ccc7c"
+          },
+          "date": "06-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebecbe55ce6702a146ccc82"
+          },
+          "date": "11-05-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebee4cd3eea490838e02d54"
+          },
+          "date": "20-04-2020",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeca6414d4c30640e08487"
+  },
+  "name": "Pat Solitano",
+  "email": "pat@faculty.com",
+  "password": "$2a$10$7Y/6wIarPmsiEhCvyoI5geTjynX1gldysWGUlRd7tw8rM4Y0.eod.",
+  "department": "Marketing",
+  "n_students": 6,
+  "attendance": [
+    {
+      "name": "John Nash",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9b2af9b173398e2cb6e"
+          },
+          "date": "07-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed9c7af9b173398e2cb74"
+          },
+          "date": "14-04-2020",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Stella Clark",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9b2af9b173398e2cb6f"
+          },
+          "date": "07-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed9c7af9b173398e2cb75"
+          },
+          "date": "14-04-2020",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Joel Barish",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9b2af9b173398e2cb70"
+          },
+          "date": "07-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed9c7af9b173398e2cb76"
+          },
+          "date": "14-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Todd Miller",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9b2af9b173398e2cb71"
+          },
+          "date": "07-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed9c7af9b173398e2cb77"
+          },
+          "date": "14-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Eugenia Skeeter",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9b2af9b173398e2cb72"
+          },
+          "date": "07-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed9c7af9b173398e2cb78"
+          },
+          "date": "14-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Celia Foote",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9b2af9b173398e2cb73"
+          },
+          "date": "07-04-2020",
+          "value": 0
+        },
+        {
+          "_id": {
+            "$oid": "5ebed9c7af9b173398e2cb79"
+          },
+          "date": "14-04-2020",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeca8814d4c30640e08488"
+  },
+  "name": "Aibileen Clark",
+  "email": "clark@faculty.com",
+  "password": "$2a$10$9hUDSsDGIgudzTmmBIzByu77xuKtchjMwE4CMzkAeU.nY7vynaRqm",
+  "department": "Philosophy",
+  "n_students": 6,
+  "attendance": [
+    {
+      "name": "Stella Clark",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebeda2baf9b173398e2cb86"
+          },
+          "date": "08-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda3baf9b173398e2cb8c"
+          },
+          "date": "22-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Joel Barish",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebeda2baf9b173398e2cb87"
+          },
+          "date": "08-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda3baf9b173398e2cb8d"
+          },
+          "date": "22-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Todd Miller",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebeda2baf9b173398e2cb88"
+          },
+          "date": "08-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda3baf9b173398e2cb8e"
+          },
+          "date": "22-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Eugenia Skeeter",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebeda2baf9b173398e2cb89"
+          },
+          "date": "08-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda3baf9b173398e2cb8f"
+          },
+          "date": "22-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Celia Foote",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebeda2baf9b173398e2cb8a"
+          },
+          "date": "08-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda3baf9b173398e2cb90"
+          },
+          "date": "22-04-2020",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Cliff Patel",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebeda2baf9b173398e2cb8b"
+          },
+          "date": "08-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda3baf9b173398e2cb91"
+          },
+          "date": "22-04-2020",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebeca9814d4c30640e08489"
+  },
+  "name": "Molly Bloom",
+  "email": "bloom@faculty.com",
+  "password": "$2a$10$ako09XYItPeIIxE0KDLMHusRi1bdDy1.HxtV9froUn/ZHItCAb1n2",
+  "department": "Chemical Engineering",
+  "n_students": 6,
+  "attendance": [
+    {
+      "name": "Joel Barish",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9f0af9b173398e2cb7a"
+          },
+          "date": "02-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda02af9b173398e2cb80"
+          },
+          "date": "16-04-2020",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Todd Miller",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9f0af9b173398e2cb7b"
+          },
+          "date": "02-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda02af9b173398e2cb81"
+          },
+          "date": "16-04-2020",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Eugenia Skeeter",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9f0af9b173398e2cb7c"
+          },
+          "date": "02-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda02af9b173398e2cb82"
+          },
+          "date": "16-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Celia Foote",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9f0af9b173398e2cb7d"
+          },
+          "date": "02-04-2020",
+          "value": 0
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda02af9b173398e2cb83"
+          },
+          "date": "16-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Cliff Patel",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9f0af9b173398e2cb7e"
+          },
+          "date": "02-04-2020",
+          "value": 0
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda02af9b173398e2cb84"
+          },
+          "date": "16-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Emile",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed9f0af9b173398e2cb7f"
+          },
+          "date": "02-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebeda02af9b173398e2cb85"
+          },
+          "date": "16-04-2020",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebed49d1ed9c61428e4265c"
+  },
+  "name": "Frank Adler",
+  "email": "adler@faculty.com",
+  "password": "$2a$10$s/BRf78GKft5ZCFoMajHYOaTKbE58cAVC5n/5fkAZlOO07p8mzw6m",
+  "department": "Applied Mathematics",
+  "n_students": 6,
+  "attendance": [
+    {
+      "name": "Todd Miller",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed95baf9b173398e2cb62"
+          },
+          "date": "03-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed979af9b173398e2cb68"
+          },
+          "date": "10-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Eugenia Skeeter",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed95baf9b173398e2cb63"
+          },
+          "date": "03-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed979af9b173398e2cb69"
+          },
+          "date": "10-04-2020",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Celia Foote",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed95baf9b173398e2cb64"
+          },
+          "date": "03-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed979af9b173398e2cb6a"
+          },
+          "date": "10-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Cliff Patel",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed95baf9b173398e2cb65"
+          },
+          "date": "03-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed979af9b173398e2cb6b"
+          },
+          "date": "10-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Emile",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed95baf9b173398e2cb66"
+          },
+          "date": "03-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed979af9b173398e2cb6c"
+          },
+          "date": "10-04-2020",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Hazel Grace",
+      "status": [
+        {
+          "_id": {
+            "$oid": "5ebed95baf9b173398e2cb67"
+          },
+          "date": "03-04-2020",
+          "value": 1
+        },
+        {
+          "_id": {
+            "$oid": "5ebed979af9b173398e2cb6d"
+          },
+          "date": "10-04-2020",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee2fd4f588a27d4e92052"
+  },
+  "name": "Tiffiny Maxwell",
+  "email": "maxwell@student.com",
+  "password": "$2a$10$g.MY1fD5vQU0CQYhEVq4A.odpJ2Dsb2TUOlHZi0mSIwbxYMl4/2zC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee30f4f588a27d4e92053"
+  },
+  "name": "John Nash",
+  "email": "nash@student.com",
+  "password": "$2a$10$00fW9fz7Vc7chDlNwlbVOOFHT1gRKnEifezDw7xdnFyBME6tvk3ai",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee33f4f588a27d4e92054"
+  },
+  "name": "Stella Clark",
+  "email": "clark@student.com",
+  "password": "$2a$10$YePz41iirLa4JR6d7fKiKuf/AuRM2cAu6ttrNc.lmX2405xWCR.ou",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee3524f588a27d4e92055"
+  },
+  "name": "Joel Barish",
+  "email": "barish@student.com",
+  "password": "$2a$10$X9eAiHhCdP.JtR0QhtEnu.3AMxxzQefb3TijfRZh504YmhfGyijOq",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee3654f588a27d4e92056"
+  },
+  "name": "Todd Miller",
+  "email": "miller@student.com",
+  "password": "$2a$10$jv83OuAD8AqnEGKYNt0N/eI1IiRsFD3SbTBPEdKHz.dEcYLTcE6dC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee3814f588a27d4e92057"
+  },
+  "name": "Eugenia Skeeter",
+  "email": "skeeter@student.com",
+  "password": "$2a$10$I1xUR.DuUJoGY6R/3IVtweB3bol1T94vlS9ILGcU6Z5NS7EzZKyVi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee3984f588a27d4e92058"
+  },
+  "name": "Celia Foote",
+  "email": "foote@student.com",
+  "password": "$2a$10$qZI.dW/H7CwtEhqXjhEklOVmcrQmO0huXXtlGMuq0AtGuVVgMpPZm",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee3a94f588a27d4e92059"
+  },
+  "name": "Cliff Patel",
+  "email": "patel@student.com",
+  "password": "$2a$10$b7owRY7Rlhm10ySmuJHm..NNHvmtfPF0rDuoBozcPejCaZcHVGhYm",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee3bb4f588a27d4e9205a"
+  },
+  "name": "Emile",
+  "email": "emile@student.com",
+  "password": "$2a$10$1rfjEIU9Lb3vMn0/9Hv.FOmO3kARey4GGmCGVKiMx49HiZB4.rx3i",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebee3cc4f588a27d4e9205b"
+  },
+  "name": "Hazel Grace",
+  "email": "grace@student.com",
+  "password": "$2a$10$fFBfBRlCWrMAPzK7aSBmd.mEeZ.Sh6TJhgLC.yAdWushXXRWTwhd.",
+  "__v": 0
+}]

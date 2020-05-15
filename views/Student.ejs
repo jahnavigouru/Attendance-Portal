@@ -1,0 +1,33 @@
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
+  
+<div class="card card-body text-center">
+<h1 class="mt-4">Home</h1>
+<p class="lead mb-3">Welcome <%= name %>
+
+<form action="/users/Student_view" method="POST">
+<!--Dropdown primary-->
+<div class="dropdown">
+
+    <!--Trigger-->
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false" >Department</button>
+         
+    <!--Menu-->
+    <div class="dropdown-menu dropdown-primary">
+       <% if (typeof Array !== 'undefined' && Array.length > 0) {%>
+          <%for (var i = 0; i < Array.length; i++) { %>
+            <button class="dropdown-item" value="<%= Array[i].department %>" name="department" onclick="location.href = 'Student_view.ejs';"><%= Array[i].department %></button>
+          <%}%>
+        <% } %>
+    </div>
+  </div>
+  <!--/Dropdown primary-->
+</form> 
+
+<a href="/users/logout" class="btn btn-secondary">Logout</a>
+
+</div>
+</div>
+</div>
+

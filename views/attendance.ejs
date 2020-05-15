@@ -1,0 +1,48 @@
+ 
+<%- include('./partials/messages.ejs'); %>
+<div class="card card-body text-center">
+<h4>Attendance</h4><br></h4>
+  <form method="post" action="/users/attendance">
+    <div class="dates">
+      <label>Date </label>
+      <input type="text" autocomplete="off" id="user1" class="form-control" placeholder="dd-mm-yy" name="date"><br>
+     </div>
+
+      
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">s.no</th>
+          <th scope="col">Student</th>
+          <th scope="col">Attendance</th>
+        </tr>
+      </thead>
+    <tbody>
+    <% if (typeof usersArray !== 'undefined' && usersArray.length > 0) {%>
+     <%for (var i = 0; i < usersArray.length; i++) { %>
+      <%for (var j = 0; j < usersArray[0].n_students; j++) { %>
+          <tr>
+            <th scope="row"><%= (j+1) %></th>
+            <td><%= usersArray[i].attendance[j].name %></td>
+            <td><input type="text" placeholder="0/1" name="value" required></td>
+          </tr>
+       <%}%>
+     <%}%>
+    <% } %>
+    </tbody>
+    </table>
+    <button class="btn btn-info" type="submit">submit</button>
+     </form>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<br>
+ <a href="/users/T_Attendance_view" class="btn btn-secondary">View Attendance</a>
+
+ <a href="/users/logout" class="btn btn-secondary">Logout</a>
+     
+
+
+

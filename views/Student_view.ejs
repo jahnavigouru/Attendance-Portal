@@ -1,0 +1,30 @@
+<div class="card card-body text-center">
+<h4>Attendance</h1><br>
+<h1><%= usersArray[0].result[0].name %></h1>
+
+<table id="example"class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Department</th>
+        <th scope="col">Date(MM/DD/YY)</th>
+        <th scope="col">Attendance(0/1)</th>
+      </tr>
+    </thead>
+    <tbody>
+        <% if (typeof usersArray !== 'undefined' && usersArray.length > 0) {%>
+            <%for (var i = 0; i < usersArray[0].result[0].status.length; i++) { %>
+            <tr>
+              <td><%= usersArray[0].department %></td>
+              <td><%= usersArray[0].result[0].status[i].date %></td>
+              <td><%= usersArray[0].result[0].status[i].value %></td>
+            </tr>
+            <%}%>
+          <% } %>
+    </tbody>
+  </table>
+ </div>
+<a href="/users/logout" class="btn btn-secondary">Logout</a>
+
+
+
+

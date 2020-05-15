@@ -1,0 +1,36 @@
+<div class="row mt-5">
+<div class="col-md-6 m-auto">
+<div class="card card-body text-center">
+<h1 class="mt-4">Home </h1>
+<p class="lead mb-3">Welcome <%= name %></p>
+<p class="lead mb-3">Department : <%= department %></p>
+<%- include('./partials/messages.ejs'); %>
+
+<form action="/home" method="POST">
+<!--Dropdown primary-->
+<div class="dropdown">
+
+  <!--Trigger-->
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+    aria-haspopup="true" aria-expanded="false" >Department</button>
+       
+  <!--Menu-->
+  <div class="dropdown-menu dropdown-primary">
+     <% if (typeof usersArray !== 'undefined' && usersArray.length > 0) {%>
+        <%for (var i = 0; i < usersArray.length; i++) { %>
+          <% if ((usersArray[i].department) != null){ %>
+          <button class="dropdown-item"  value="<%= usersArray[i].department %>" name="department"><%= usersArray[i].department %></button>
+          <%}%>
+        <%}%>
+      <% } %>
+  </div>
+</div>
+<!--/Dropdown primary-->
+</form>
+<a href="/users/logout" class="btn btn-secondary text-center">Logout</a>
+</div>
+</div>
+</div>
+
+
+

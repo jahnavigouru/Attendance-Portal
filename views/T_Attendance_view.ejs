@@ -1,0 +1,32 @@
+
+<h4>Student Attendance</h4><br>
+
+<table id="example"class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Student name</th>
+      <th scope="col">Date(MM/DD/YY)</th>
+      <th scope="col">Attendance(0/1)</th>
+    </tr>
+  </thead>
+  <tbody>
+      <% if (typeof usersArray !== 'undefined' && usersArray.length > 0) {%>
+          <%for (var i = 0; i < usersArray[0].attendance.length; i++) { %>
+            <%for (var j = 0; j < usersArray[0].attendance[i].status.length; j++) { %>
+          <tr>
+            <td><%= usersArray[0].attendance[i].name %></td>
+            <td><%= usersArray[0].attendance[i].status[j].date %></td>
+            <td><%= usersArray[0].attendance[i].status[j].value %></td>
+          </tr>
+           <%}%>
+          <%}%>
+        <% } %>
+  </tbody>
+</table>
+<button class="btn btn-secondary" id="btnexport" >Export</button>
+
+<a href="/users/logout" class="btn btn-secondary">Logout</a>
+
+
+
+
