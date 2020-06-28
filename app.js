@@ -6,9 +6,6 @@ const flash = require('connect-flash')
 const session = require('express-session')
 const passport = require('passport')
 
-//.env variables
-require('dotenv').config() 
-
 const app = express()
 
 //passort
@@ -16,8 +13,8 @@ require('./config/passport')(passport)
 
 
 // DB connection
-const url = process.env.URI
-mongoose.connect(url, ({useUnifiedTopology: true, useNewUrlParser: true}))
+const { uri } = require('./config/key')
+mongoose.connect(uri, ({useUnifiedTopology: true, useNewUrlParser: true}))
 .then(() => console.log('DB connected!'))
 .catch((err) => console.log(`DB connection error ${err}`))
 
