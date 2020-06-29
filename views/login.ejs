@@ -9,10 +9,10 @@
     <%- include('./partials/messages.ejs'); %>
    <div class="card card-body text-center">
     <!-- Email -->
-    <input type="text" id="defaultLoginFormID" class="form-control mb-4" name="email" placeholder="ID" value="<% typeof email != 'undefined' ? email : '' %>">
+    <input type="text" id="defaultLoginFormID" class="form-control mb-4" name="email" placeholder="ID" value="<% typeof email != 'undefined' ? email : '' %>" required>
 
     <!-- Password -->
-    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" name="password" placeholder="Password" value="<% typeof password != 'undefined' ? password: '' %>">
+    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" name="password" placeholder="Password" value="<% typeof password != 'undefined' ? password: '' %>" required>
 
     <div class="d-flex justify-content-around">
         <div>
